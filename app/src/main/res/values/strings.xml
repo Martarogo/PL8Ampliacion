@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Coin Converter</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="button_to_rupias">To Rupias</string>
+    <string name="button_to_yuans">To Yuans</string>
+    <string name="button_to_euros">To Euros</string>
+    <string name="button_to_dollars">To Dollars</string>
+    <string name="button_to_yens">To Yens</string>
+    <string name="button_to_francs">To Francs</string>
+    <string name="button_to_pesos">To Pesos</string>
+    <string name="button_to_pounds">To Pounds</string>
+</resources>

@@ -1,0 +1,241 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <EditText
+            android:id="@+id/editTextRupias"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:inputType="numberDecimal"
+            android:layout_weight="1.5"
+            android:tag="0" />
+
+        <requestFocus/>
+
+        <ImageView
+            android:layout_width="57dp"
+            android:layout_height="42dp"
+            android:src="@drawable/in"/>
+
+        <Button
+            android:id="@+id/buttonRupias"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="@string/button_to_rupias"
+            android:onClick="ChooseValues"
+            android:layout_weight="1.5"
+            android:tag="0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/editTextYuans"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:inputType="numberDecimal"
+            android:layout_weight="1.5"
+            android:tag="1" />
+
+        <ImageView
+            android:layout_width="57dp"
+            android:layout_height="42dp"
+            android:src="@drawable/cn"/>
+
+        <Button
+            android:id="@+id/buttonYuans"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="@string/button_to_yuans"
+            android:onClick="ChooseValues"
+            android:layout_weight="1.5"
+            android:tag="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/editTextEuros"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:inputType="numberDecimal"
+            android:layout_weight="1.5"
+            android:tag="2" />
+
+        <ImageView
+            android:layout_width="57dp"
+            android:layout_height="42dp"
+            android:src="@drawable/eu"/>
+
+        <Button
+            android:id="@+id/buttonEuros"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="@string/button_to_euros"
+            android:onClick="ChooseValues"
+            android:layout_weight="1.5"
+            android:tag="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/editTextDollars"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:inputType="numberDecimal"
+            android:layout_weight="1.5"
+            android:tag="3" />
+
+        <ImageView
+            android:layout_width="57dp"
+            android:layout_height="42dp"
+            android:src="@drawable/us"/>
+
+        <Button
+            android:id="@+id/buttonDollars"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="@string/button_to_dollars"
+            android:onClick="ChooseValues"
+            android:layout_weight="1.5"
+            android:tag="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/editTextYens"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:inputType="numberDecimal"
+            android:layout_weight="1.5"
+            android:tag="4" />
+
+        <ImageView
+            android:layout_width="57dp"
+            android:layout_height="42dp"
+            android:src="@drawable/jp"/>
+
+        <Button
+            android:id="@+id/buttonYens"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="@string/button_to_yens"
+            android:onClick="ChooseValues"
+            android:layout_weight="1.5"
+            android:tag="4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/editTextFrancs"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:inputType="numberDecimal"
+            android:layout_weight="1.5"
+            android:tag="5" />
+
+        <ImageView
+            android:layout_width="57dp"
+            android:layout_height="42dp"
+            android:src="@drawable/ch"/>
+
+        <Button
+            android:id="@+id/buttonFrancs"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="@string/button_to_francs"
+            android:onClick="ChooseValues"
+            android:layout_weight="1.5"
+            android:tag="5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/editTextPesos"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:inputType="numberDecimal"
+            android:layout_weight="1.5"
+            android:tag="6" />
+
+        <ImageView
+            android:layout_width="57dp"
+            android:layout_height="42dp"
+            android:src="@drawable/mx"/>
+
+        <Button
+            android:id="@+id/buttonPesos"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="@string/button_to_pesos"
+            android:onClick="ChooseValues"
+            android:layout_weight="1.5"
+            android:tag="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/editTextPounds"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:inputType="numberDecimal"
+            android:layout_weight="1.5"
+            android:tag="7" />
+
+        <ImageView
+            android:layout_width="57dp"
+            android:layout_height="42dp"
+            android:src="@drawable/gb"/>
+
+        <Button
+            android:id="@+id/buttonPounds"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="@string/button_to_pounds"
+            android:onClick="ChooseValues"
+            android:layout_weight="1.5"
+            android:tag="7" />
+    </LinearLayout>
+
+</LinearLayout>
